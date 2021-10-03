@@ -10,13 +10,19 @@ console.log(typeof d);
 console.log("hallo world");
 */
 
-var x = undefined;
-var y = null;
-console.log(typeof y);
+// var x = undefined;
+// var y = null;
+// console.log(typeof y);
+// console.log(typeof x);
 
-var c = 6;
+// var c = 6;
 
 // Diff between == & ===
 
 // 5 == 5
-console.log(5 === 5)
+// console.log(5 === 5)
+
+// console.log( 0 == false)
+
+var d;
+console.log(d)
