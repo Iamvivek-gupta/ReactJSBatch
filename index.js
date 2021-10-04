@@ -24,5 +24,23 @@ console.log("hallo world");
 
 // console.log( 0 == false)
 
+
+
+
 var d;
-console.log(d)
+var sum = 10 + 20;
+var result = 10 + "20";
+var result1 = 10 + d;
+var result2 = 20 + null;
+// console.log(typeof sum, typeof result,
+//      typeof result1, typeof result2);
+
+
+var sub = 10 - 20;
+var sub1 = 10 - "20"; // 10 - 20
+var sub2 = 10 - "ab"; 
+var sub3 = 10 - null;
+console.log(sub, sub1, sub2, sub3);     
+
+console.log("hello " + "world" - 2); 
+

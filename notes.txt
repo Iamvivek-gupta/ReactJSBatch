@@ -1,0 +1,6 @@
+Operators in Javascript will
+
+1. Arithmetic
+2. Logical
+3. Assignment
+4. Comparison
