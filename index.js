@@ -40,7 +40,38 @@ var sub = 10 - 20;
 var sub1 = 10 - "20"; // 10 - 20
 var sub2 = 10 - "ab"; 
 var sub3 = 10 - null;
-console.log(sub, sub1, sub2, sub3);     
+// console.log(sub, sub1, sub2, sub3);     
 
-console.log("hello " + "world" - 2); 
+// console.log("hello " + "world" - 2); 
 
+// console.log("A" - 1);
+// console.log("hello" - "world" + 78) // NaN + 78 = NaN
+
+// console.log( 10 - "30"); // 10 - 30 = -20
+// console.log( 10 - "a"); // 10 - "a" = NaN
+
+// console.log( 10 * "3"); // 10 * 3 = 30
+// console.log( 10 * "a") // 
+// console.log(10 * undefined);
+// console.log(10 * null);
+// console.log(10 + null);
+
+// console.log(10 / 2 ) // return quotioent // 5 
+// console.log(10 % 2 ) // return remender // 0
+
+
+//Comparison Operator == , ===, >= , <=, > <
+// console.log(2 === "2");
+// console.log(2 >= "a");
+
+// Logical operator && , ||, !
+
+// console.log(false && false);
+// console.log(6 < 10 && 10 > 6); // true && true
+// console.log(10 == 20 && 30 === 30) // false && true
+// console.log(10 == 10 && 30 === "30") // true && false
+
+console.log(false || false);
+console.log(6 < 10 ||  10 > 6); // true || true
+console.log(10 == 20 ||  30 === 30) // false && true
+console.log(10 == 10 ||  30 === "30") // true && false

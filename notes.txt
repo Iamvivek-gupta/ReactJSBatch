@@ -4,3 +4,6 @@ Operators in Javascript will
 2. Logical
 3. Assignment
 4. Comparison
+
+i) Logical AND: if both operands are
+ii) Logical OR: if both operands are
